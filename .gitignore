@@ -1,0 +1,20 @@
+
+@"
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Medical datasets and patient imaging
+dataset/
+*.dcm
+*.nii
+*.nii.gz
+*.npz
+
+# Generated outputs and temporary files
+outputs/
+scratch/
+"@ | Out-File -Encoding utf8 .gitignore
