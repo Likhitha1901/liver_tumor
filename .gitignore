@@ -18,3 +18,15 @@ dataset/
 outputs/
 scratch/
 "@ | Out-File -Encoding utf8 .gitignore
+HCC-TACE-Seg_Clinical_Data-V2.csv HCC-TACE-Seg_clinical_data-V2.xlsx app_backup_before_105_fix.py backups/ label_check.png dataset/raw/ dataset/hcc_preprocessed/ *.npz *.nii *.nii.gz *.zip
+HCC-TACE-Seg_Clinical_Data-V2.csv
+HCC-TACE-Seg_clinical_data-V2.xlsx
+app_backup_before_105_fix.py
+backups/
+label_check.png
+dataset/raw/
+dataset/hcc_preprocessed/
+*.npz
+*.nii
+*.nii.gz
+*.zip
